@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="../static/css/HomePage.css"> <!-- External CSS -->
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome, <span id="username">User</span>!</h1>
+        <p>Select an option below to manage your finances:</p>
+        <div class="btn-container">
+            <button id="viewTransactions" class="btn">View Transactions</button>
+            <button id="addTransaction" class="btn">Add Transaction</button>
+            <button id="viewAnalytics" class="btn">View Analytics</button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="../static/js/HomePage.js " type="module"></script> <!-- External JavaScript -->
+</body>
+</html>
